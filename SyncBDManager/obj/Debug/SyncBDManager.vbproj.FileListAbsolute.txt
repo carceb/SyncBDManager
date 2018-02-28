@@ -1,0 +1,32 @@
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\SyncBDManager.exe.config
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\SyncBDManager.exe
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\SyncBDManager.pdb
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\SyncBDManager.xml
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.vbprojResolveAssemblyReference.cache
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.Principal.resources
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.Resources.resources
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.vbproj.GenerateResource.Cache
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.exe
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.xml
+c:\users\carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.pdb
+C:\Users\Carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\MetroFramework.Design.dll
+C:\Users\Carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\MetroFramework.dll
+C:\Users\Carceb\documents\visual studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Carceb\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.Configurar.resources
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\SyncBDManager.exe.config
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.exe
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.xml
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.pdb
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\SyncBDManager.exe
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\SyncBDManager.pdb
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\SyncBDManager.xml
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\MetroFramework.Design.dll
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\MetroFramework.dll
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.vbprojResolveAssemblyReference.cache
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.Resources.resources
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.Configurar.resources
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.Form1.resources
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.Principal.resources
+C:\Users\Carlos Lenin\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.vbproj.GenerateResource.Cache
+C:\Users\Carceb\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.LogsSincronizacion.resources
