@@ -23,6 +23,7 @@ Partial Class Principal
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.MetroPanel1 = New MetroFramework.Controls.MetroPanel()
+        Me.mtLogServicio = New MetroFramework.Controls.MetroTile()
         Me.mtServicio = New MetroFramework.Controls.MetroTile()
         Me.mtLogs = New MetroFramework.Controls.MetroTile()
         Me.mtConfiguracion = New MetroFramework.Controls.MetroTile()
@@ -32,6 +33,7 @@ Partial Class Principal
         'MetroPanel1
         '
         Me.MetroPanel1.AutoSize = True
+        Me.MetroPanel1.Controls.Add(Me.mtLogServicio)
         Me.MetroPanel1.Controls.Add(Me.mtServicio)
         Me.MetroPanel1.Controls.Add(Me.mtLogs)
         Me.MetroPanel1.Controls.Add(Me.mtConfiguracion)
@@ -47,15 +49,30 @@ Partial Class Principal
         Me.MetroPanel1.VerticalScrollbarHighlightOnWheel = False
         Me.MetroPanel1.VerticalScrollbarSize = 10
         '
+        'mtLogServicio
+        '
+        Me.mtLogServicio.ActiveControl = Nothing
+        Me.mtLogServicio.Location = New System.Drawing.Point(232, 229)
+        Me.mtLogServicio.Name = "mtLogServicio"
+        Me.mtLogServicio.Size = New System.Drawing.Size(243, 105)
+        Me.mtLogServicio.Style = MetroFramework.MetroColorStyle.Teal
+        Me.mtLogServicio.TabIndex = 8
+        Me.mtLogServicio.Text = "Información del servicio"
+        Me.mtLogServicio.TileImage = Global.SyncBDManager.My.Resources.Resources.estado
+        Me.mtLogServicio.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.mtLogServicio.UseSelectable = True
+        Me.mtLogServicio.UseTileImage = True
+        '
         'mtServicio
         '
         Me.mtServicio.ActiveControl = Nothing
-        Me.mtServicio.Location = New System.Drawing.Point(232, 229)
+        Me.mtServicio.Location = New System.Drawing.Point(481, 229)
         Me.mtServicio.Name = "mtServicio"
-        Me.mtServicio.Size = New System.Drawing.Size(430, 105)
+        Me.mtServicio.Size = New System.Drawing.Size(181, 105)
         Me.mtServicio.Style = MetroFramework.MetroColorStyle.Lime
         Me.mtServicio.TabIndex = 7
         Me.mtServicio.Text = "Iniciar/Detener servicio de sincronización"
+        Me.mtServicio.TileImageAlign = System.Drawing.ContentAlignment.BottomRight
         Me.mtServicio.UseSelectable = True
         '
         'mtLogs
@@ -106,4 +123,5 @@ Partial Class Principal
     Friend WithEvents mtServicio As MetroFramework.Controls.MetroTile
     Friend WithEvents mtLogs As MetroFramework.Controls.MetroTile
     Friend WithEvents mtConfiguracion As MetroFramework.Controls.MetroTile
+    Friend WithEvents mtLogServicio As MetroFramework.Controls.MetroTile
 End Class

@@ -82,6 +82,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\ConfigurarXML.vb" />
+    <Compile Include="Clases\ListViewColumnSorter.vb" />
+    <Compile Include="Clases\LogLector.vb" />
     <Compile Include="Clases\ManejoXML.vb" />
     <Compile Include="Modulos\SyncBDModuloPrincipal.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -152,6 +154,7 @@
     <None Include="Imagenes\Ubicaciones.png" />
     <None Include="Imagenes\atras.png" />
     <None Include="Imagenes\fechaHora.png" />
+    <None Include="Imagenes\estado.png" />
     <Content Include="Imagenes\icons8-device-manager-26.png" />
     <None Include="Imagenes\sync.png" />
     <None Include="Imagenes\sm.png" />

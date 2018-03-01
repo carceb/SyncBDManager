@@ -2,9 +2,9 @@
 <!--XML Database.-->
 <Data>
   <Configuracion>
-    <FiltraSiempreDiaActual>Si</FiltraSiempreDiaActual>
-    <CantidadDiasRestaDiaActual>0</CantidadDiasRestaDiaActual>
-    <RutaBDAccess2003>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Z:\CallCenter\BD\AutoDat.mdb</RutaBDAccess2003</RutaBDAccess2003>
+    <FiltraSiempreDiaActual>No</FiltraSiempreDiaActual>
+    <CantidadDiasRestaDiaActual>30</CantidadDiasRestaDiaActual>
+    <RutaBDAccess2003>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Public\BD\AutoDat.mdb</RutaBDAccess2003>
     <CadenaConexionMySQL>server=localhost; uid=root;pwd=123456; database=autodatasystem</CadenaConexionMySQL>
     <TiempoEjecucionServicioSincronizacion>30 Segundos</TiempoEjecucionServicioSincronizacion>
     <BorrarLogs>No</BorrarLogs>

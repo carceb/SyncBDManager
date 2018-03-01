@@ -1,6 +1,12 @@
 ﻿Public Class LogsSincronizacion
+    Private lvwColumnSorter As ListViewColumnSorter
     Private Sub LogsSincronizacion_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         mtbdProcesosSinc.SelectedIndex = 0
+
+        lvwColumnSorter = New ListViewColumnSorter()
+        lvwColumnSorter = New ListViewColumnSorter()
+        lvInventory.ListViewItemSorter = lvwColumnSorter
+        CargarListViewLog(0)
     End Sub
     Private Sub mlnkInventory_Click(sender As Object, e As EventArgs) Handles mlnkInventory.Click
         mtbdProcesosSinc.SelectedIndex = 0
@@ -44,6 +50,44 @@
     Private Sub mlnkCodesCatSub_Click(sender As Object, e As EventArgs) Handles mlnkCodesCatSub.Click
         mtbdProcesosSinc.SelectedIndex = 10
     End Sub
+    Private Sub CargarListViewLog(listViewACargar As Integer)
+        Dim objetoLogLector As New LogLector
+        Select Case listViewACargar
+            Case 0
+                objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\Inventory.txt", lvInventory)
+            Case 1
+                objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\Inventory.txt", lvInventory)
+            Case 2
+            Case 3
+            Case 4
+            Case 5
+            Case 6
+            Case 7
+            Case 8
+            Case 9
+            Case 10
+        End Select
+    End Sub
 
+    Private Sub MetroButton1_Click(sender As Object, e As EventArgs) Handles MetroButton1.Click
+        CargarListViewLog(0)
+    End Sub
 
+    Private Sub lvInventory_ColumnClick(sender As Object, e As ColumnClickEventArgs) Handles lvInventory.ColumnClick
+        If (e.Column = lvwColumnSorter.SortColumn) Then
+            ' Reverse the current sort direction for this column.
+            If (lvwColumnSorter.Order = SortOrder.Ascending) Then
+                lvwColumnSorter.Order = SortOrder.Descending
+            Else
+                lvwColumnSorter.Order = SortOrder.Ascending
+            End If
+        Else
+            ' Set the column number that is to be sorted; default to ascending.
+            lvwColumnSorter.SortColumn = e.Column
+            lvwColumnSorter.Order = SortOrder.Ascending
+        End If
+
+        ' Perform the sort with these new sort options.
+        Me.lvInventory.Sort()
+    End Sub
 End Class
