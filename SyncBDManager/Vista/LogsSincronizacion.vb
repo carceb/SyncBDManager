@@ -7,12 +7,15 @@
         lvwColumnSorter = New ListViewColumnSorter()
         lvInventory.ListViewItemSorter = lvwColumnSorter
         CargarListViewLog(0)
+        CargarListViewLog(1)
     End Sub
     Private Sub mlnkInventory_Click(sender As Object, e As EventArgs) Handles mlnkInventory.Click
         mtbdProcesosSinc.SelectedIndex = 0
+        CargarListViewLog(1)
     End Sub
     Private Sub mlnkInventoryPricing_Click(sender As Object, e As EventArgs) Handles mlnkInventoryPricing.Click
         mtbdProcesosSinc.SelectedIndex = 1
+        CargarListViewLog(1)
     End Sub
 
     Private Sub mlnkInventoryDTS_Click(sender As Object, e As EventArgs) Handles mlnkInventoryDTS.Click
@@ -56,7 +59,7 @@
             Case 0
                 objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\Inventory.txt", lvInventory)
             Case 1
-                objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\Inventory.txt", lvInventory)
+                objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\InventoryPricing.txt", lvInventoryPricing)
             Case 2
             Case 3
             Case 4
@@ -89,5 +92,23 @@
 
         ' Perform the sort with these new sort options.
         Me.lvInventory.Sort()
+    End Sub
+
+    Private Sub lvInventoryPricing_ColumnClick(sender As Object, e As ColumnClickEventArgs) Handles lvInventoryPricing.ColumnClick
+        If (e.Column = lvwColumnSorter.SortColumn) Then
+            ' Reverse the current sort direction for this column.
+            If (lvwColumnSorter.Order = SortOrder.Ascending) Then
+                lvwColumnSorter.Order = SortOrder.Descending
+            Else
+                lvwColumnSorter.Order = SortOrder.Ascending
+            End If
+        Else
+            ' Set the column number that is to be sorted; default to ascending.
+            lvwColumnSorter.SortColumn = e.Column
+            lvwColumnSorter.Order = SortOrder.Ascending
+        End If
+
+        ' Perform the sort with these new sort options.
+        Me.lvInventoryPricing.Sort()
     End Sub
 End Class

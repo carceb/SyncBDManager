@@ -1,0 +1,12 @@
+2/3/2018 2:26:27 p.m. | Sincronizando tabla = InventoryPricing
+2/3/2018 2:26:27 p.m. | Dias hacia atras 20
+2/3/2018 2:26:33 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 174
+2/3/2018 2:27:27 p.m. | Sincronizando tabla = InventoryPricing
+2/3/2018 2:27:27 p.m. | Dias hacia atras 20
+2/3/2018 2:27:31 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 174
+2/3/2018 2:28:27 p.m. | Sincronizando tabla = InventoryPricing
+2/3/2018 2:28:27 p.m. | Dias hacia atras 20
+2/3/2018 2:28:31 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 174
+2/3/2018 2:29:27 p.m. | Sincronizando tabla = InventoryPricing
+2/3/2018 2:29:27 p.m. | Dias hacia atras 20
+2/3/2018 2:29:33 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 174
