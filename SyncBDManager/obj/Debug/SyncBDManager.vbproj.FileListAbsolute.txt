@@ -46,3 +46,4 @@ C:\Users\Carlos\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManage
 C:\Users\Carlos\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.Principal.resources
 C:\Users\Carlos\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.vbproj.GenerateResource.Cache
 C:\Users\Carlos\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.vbprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Visual Studio 2015\Projects\SyncBDManager\SyncBDManager\obj\Debug\SyncBDManager.InformacionServicio.resources

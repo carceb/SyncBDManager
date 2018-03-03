@@ -23,6 +23,9 @@ Partial Class Configurar
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.mpMenu = New MetroFramework.Controls.MetroPanel()
+        Me.mlnkSincronizador = New MetroFramework.Controls.MetroLink()
+        Me.mlnkUbicaciones = New MetroFramework.Controls.MetroLink()
+        Me.mlnkFiltros = New MetroFramework.Controls.MetroLink()
         Me.mtbdConfiguraciones = New MetroFramework.Controls.MetroTabControl()
         Me.MetroTabPage1 = New MetroFramework.Controls.MetroTabPage()
         Me.MetroLabel3 = New MetroFramework.Controls.MetroLabel()
@@ -43,9 +46,6 @@ Partial Class Configurar
         Me.MetroLabel7 = New MetroFramework.Controls.MetroLabel()
         Me.mcboTiempoSincronizacion = New MetroFramework.Controls.MetroComboBox()
         Me.mbtnAplicar = New MetroFramework.Controls.MetroButton()
-        Me.mlnkSincronizador = New MetroFramework.Controls.MetroLink()
-        Me.mlnkUbicaciones = New MetroFramework.Controls.MetroLink()
-        Me.mlnkFiltros = New MetroFramework.Controls.MetroLink()
         Me.mpMenu.SuspendLayout()
         Me.mtbdConfiguraciones.SuspendLayout()
         Me.MetroTabPage1.SuspendLayout()
@@ -72,6 +72,42 @@ Partial Class Configurar
         Me.mpMenu.VerticalScrollbarHighlightOnWheel = False
         Me.mpMenu.VerticalScrollbarSize = 10
         '
+        'mlnkSincronizador
+        '
+        Me.mlnkSincronizador.Image = Global.SyncBDManager.My.Resources.Resources.sync
+        Me.mlnkSincronizador.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.mlnkSincronizador.ImageSize = 22
+        Me.mlnkSincronizador.Location = New System.Drawing.Point(20, 132)
+        Me.mlnkSincronizador.Name = "mlnkSincronizador"
+        Me.mlnkSincronizador.Size = New System.Drawing.Size(138, 27)
+        Me.mlnkSincronizador.TabIndex = 5
+        Me.mlnkSincronizador.Text = "Sincronizador"
+        Me.mlnkSincronizador.UseSelectable = True
+        '
+        'mlnkUbicaciones
+        '
+        Me.mlnkUbicaciones.Image = Global.SyncBDManager.My.Resources.Resources.Ubicaciones
+        Me.mlnkUbicaciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.mlnkUbicaciones.ImageSize = 22
+        Me.mlnkUbicaciones.Location = New System.Drawing.Point(20, 84)
+        Me.mlnkUbicaciones.Name = "mlnkUbicaciones"
+        Me.mlnkUbicaciones.Size = New System.Drawing.Size(201, 27)
+        Me.mlnkUbicaciones.TabIndex = 4
+        Me.mlnkUbicaciones.Text = "Conexión acceso a datos"
+        Me.mlnkUbicaciones.UseSelectable = True
+        '
+        'mlnkFiltros
+        '
+        Me.mlnkFiltros.Image = Global.SyncBDManager.My.Resources.Resources.fechaHora
+        Me.mlnkFiltros.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.mlnkFiltros.ImageSize = 22
+        Me.mlnkFiltros.Location = New System.Drawing.Point(20, 40)
+        Me.mlnkFiltros.Name = "mlnkFiltros"
+        Me.mlnkFiltros.Size = New System.Drawing.Size(231, 27)
+        Me.mlnkFiltros.TabIndex = 3
+        Me.mlnkFiltros.Text = "Filtros y criterios de búsqueda"
+        Me.mlnkFiltros.UseSelectable = True
+        '
         'mtbdConfiguraciones
         '
         Me.mtbdConfiguraciones.Controls.Add(Me.MetroTabPage1)
@@ -79,7 +115,7 @@ Partial Class Configurar
         Me.mtbdConfiguraciones.Controls.Add(Me.mtbConfiguracion)
         Me.mtbdConfiguraciones.Location = New System.Drawing.Point(311, 24)
         Me.mtbdConfiguraciones.Name = "mtbdConfiguraciones"
-        Me.mtbdConfiguraciones.SelectedIndex = 0
+        Me.mtbdConfiguraciones.SelectedIndex = 2
         Me.mtbdConfiguraciones.Size = New System.Drawing.Size(407, 265)
         Me.mtbdConfiguraciones.TabIndex = 15
         Me.mtbdConfiguraciones.UseSelectable = True
@@ -296,9 +332,9 @@ Partial Class Configurar
         Me.MetroLabel9.AutoSize = True
         Me.MetroLabel9.Location = New System.Drawing.Point(17, 133)
         Me.MetroLabel9.Name = "MetroLabel9"
-        Me.MetroLabel9.Size = New System.Drawing.Size(218, 19)
+        Me.MetroLabel9.Size = New System.Drawing.Size(141, 19)
         Me.MetroLabel9.TabIndex = 31
-        Me.MetroLabel9.Text = "Borrar los archivos log cada 30 días"
+        Me.MetroLabel9.Text = "Borrar los archivos log"
         '
         'MetroLabel8
         '
@@ -325,7 +361,7 @@ Partial Class Configurar
         Me.mcboTiempoSincronizacion.DisplayMember = "1"
         Me.mcboTiempoSincronizacion.FormattingEnabled = True
         Me.mcboTiempoSincronizacion.ItemHeight = 23
-        Me.mcboTiempoSincronizacion.Items.AddRange(New Object() {"30 Segundos", "40 Segundos", "50 Segundos", "1 Minuto", "10 Minutos", "20 Minutos", "30 Minutos"})
+        Me.mcboTiempoSincronizacion.Items.AddRange(New Object() {"1 Minuto", "5 Minutos", "10 Minutos", "15 Minutos", "20 Minutos", "30 Minutos"})
         Me.mcboTiempoSincronizacion.Location = New System.Drawing.Point(17, 86)
         Me.mcboTiempoSincronizacion.Name = "mcboTiempoSincronizacion"
         Me.mcboTiempoSincronizacion.Size = New System.Drawing.Size(252, 29)
@@ -340,42 +376,6 @@ Partial Class Configurar
         Me.mbtnAplicar.TabIndex = 16
         Me.mbtnAplicar.Text = "Aplicar cambios"
         Me.mbtnAplicar.UseSelectable = True
-        '
-        'mlnkSincronizador
-        '
-        Me.mlnkSincronizador.Image = Global.SyncBDManager.My.Resources.Resources.sync
-        Me.mlnkSincronizador.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.mlnkSincronizador.ImageSize = 22
-        Me.mlnkSincronizador.Location = New System.Drawing.Point(20, 132)
-        Me.mlnkSincronizador.Name = "mlnkSincronizador"
-        Me.mlnkSincronizador.Size = New System.Drawing.Size(138, 27)
-        Me.mlnkSincronizador.TabIndex = 5
-        Me.mlnkSincronizador.Text = "Sincronizador"
-        Me.mlnkSincronizador.UseSelectable = True
-        '
-        'mlnkUbicaciones
-        '
-        Me.mlnkUbicaciones.Image = Global.SyncBDManager.My.Resources.Resources.Ubicaciones
-        Me.mlnkUbicaciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.mlnkUbicaciones.ImageSize = 22
-        Me.mlnkUbicaciones.Location = New System.Drawing.Point(20, 84)
-        Me.mlnkUbicaciones.Name = "mlnkUbicaciones"
-        Me.mlnkUbicaciones.Size = New System.Drawing.Size(201, 27)
-        Me.mlnkUbicaciones.TabIndex = 4
-        Me.mlnkUbicaciones.Text = "Conexión acceso a datos"
-        Me.mlnkUbicaciones.UseSelectable = True
-        '
-        'mlnkFiltros
-        '
-        Me.mlnkFiltros.Image = Global.SyncBDManager.My.Resources.Resources.fechaHora
-        Me.mlnkFiltros.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.mlnkFiltros.ImageSize = 22
-        Me.mlnkFiltros.Location = New System.Drawing.Point(20, 40)
-        Me.mlnkFiltros.Name = "mlnkFiltros"
-        Me.mlnkFiltros.Size = New System.Drawing.Size(231, 27)
-        Me.mlnkFiltros.TabIndex = 3
-        Me.mlnkFiltros.Text = "Filtros y criterios de búsqueda"
-        Me.mlnkFiltros.UseSelectable = True
         '
         'Configurar
         '

@@ -1,12 +1,28 @@
-2/3/2018 2:26:27 p.m. | Sincronizando tabla = InventoryPricing
-2/3/2018 2:26:27 p.m. | Dias hacia atras 20
-2/3/2018 2:26:33 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 174
-2/3/2018 2:27:27 p.m. | Sincronizando tabla = InventoryPricing
-2/3/2018 2:27:27 p.m. | Dias hacia atras 20
-2/3/2018 2:27:31 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 174
-2/3/2018 2:28:27 p.m. | Sincronizando tabla = InventoryPricing
-2/3/2018 2:28:27 p.m. | Dias hacia atras 20
-2/3/2018 2:28:31 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 174
-2/3/2018 2:29:27 p.m. | Sincronizando tabla = InventoryPricing
-2/3/2018 2:29:27 p.m. | Dias hacia atras 20
-2/3/2018 2:29:33 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 174
+3/3/2018 5:52:45 p.m. | Sincronizando tabla = InventoryPricing
+3/3/2018 5:52:45 p.m. | Dias hacia atras 30
+3/3/2018 5:52:55 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 456
+3/3/2018 5:52:55 p.m. | Dias hacia atras 30
+3/3/2018 5:53:44 p.m. | Sincronizando tabla = InventoryPricing
+3/3/2018 5:53:44 p.m. | Dias hacia atras 30
+3/3/2018 5:53:55 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 456
+3/3/2018 5:53:55 p.m. | Dias hacia atras 30
+3/3/2018 5:54:45 p.m. | Sincronizando tabla = InventoryPricing
+3/3/2018 5:54:45 p.m. | Dias hacia atras 30
+3/3/2018 5:54:56 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 456
+3/3/2018 5:54:56 p.m. | Dias hacia atras 30
+3/3/2018 5:55:45 p.m. | Sincronizando tabla = InventoryPricing
+3/3/2018 5:55:45 p.m. | Dias hacia atras 30
+3/3/2018 5:55:57 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 456
+3/3/2018 5:55:57 p.m. | Dias hacia atras 30
+3/3/2018 5:56:45 p.m. | Sincronizando tabla = InventoryPricing
+3/3/2018 5:56:45 p.m. | Dias hacia atras 30
+3/3/2018 5:56:58 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 456
+3/3/2018 5:56:58 p.m. | Dias hacia atras 30
+3/3/2018 5:57:45 p.m. | Sincronizando tabla = InventoryPricing
+3/3/2018 5:57:45 p.m. | Dias hacia atras 30
+3/3/2018 5:57:57 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 456
+3/3/2018 5:57:57 p.m. | Dias hacia atras 30
+3/3/2018 5:58:45 p.m. | Sincronizando tabla = InventoryPricing
+3/3/2018 5:58:45 p.m. | Dias hacia atras 30
+3/3/2018 5:59:00 p.m. | Inventory Pricing: Registros NUEVOS sincronizados para actualización = 456
+3/3/2018 5:59:00 p.m. | Dias hacia atras 30

@@ -8,4 +8,9 @@
         Dim frmLogs As New LogsSincronizacion
         frmLogs.Show()
     End Sub
+
+    Private Sub mtLogServicio_Click(sender As Object, e As EventArgs) Handles mtLogServicio.Click
+        Dim frmInfServicio As New InformacionServicio
+        frmInfServicio.Show()
+    End Sub
 End Class

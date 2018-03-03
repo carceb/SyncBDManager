@@ -24,7 +24,6 @@ Partial Class Principal
     Private Sub InitializeComponent()
         Me.MetroPanel1 = New MetroFramework.Controls.MetroPanel()
         Me.mtLogServicio = New MetroFramework.Controls.MetroTile()
-        Me.mtServicio = New MetroFramework.Controls.MetroTile()
         Me.mtLogs = New MetroFramework.Controls.MetroTile()
         Me.mtConfiguracion = New MetroFramework.Controls.MetroTile()
         Me.MetroPanel1.SuspendLayout()
@@ -34,7 +33,6 @@ Partial Class Principal
         '
         Me.MetroPanel1.AutoSize = True
         Me.MetroPanel1.Controls.Add(Me.mtLogServicio)
-        Me.MetroPanel1.Controls.Add(Me.mtServicio)
         Me.MetroPanel1.Controls.Add(Me.mtLogs)
         Me.MetroPanel1.Controls.Add(Me.mtConfiguracion)
         Me.MetroPanel1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -52,9 +50,9 @@ Partial Class Principal
         'mtLogServicio
         '
         Me.mtLogServicio.ActiveControl = Nothing
-        Me.mtLogServicio.Location = New System.Drawing.Point(232, 229)
+        Me.mtLogServicio.Location = New System.Drawing.Point(232, 198)
         Me.mtLogServicio.Name = "mtLogServicio"
-        Me.mtLogServicio.Size = New System.Drawing.Size(243, 105)
+        Me.mtLogServicio.Size = New System.Drawing.Size(430, 136)
         Me.mtLogServicio.Style = MetroFramework.MetroColorStyle.Teal
         Me.mtLogServicio.TabIndex = 8
         Me.mtLogServicio.Text = "Información del servicio"
@@ -63,29 +61,17 @@ Partial Class Principal
         Me.mtLogServicio.UseSelectable = True
         Me.mtLogServicio.UseTileImage = True
         '
-        'mtServicio
-        '
-        Me.mtServicio.ActiveControl = Nothing
-        Me.mtServicio.Location = New System.Drawing.Point(481, 229)
-        Me.mtServicio.Name = "mtServicio"
-        Me.mtServicio.Size = New System.Drawing.Size(181, 105)
-        Me.mtServicio.Style = MetroFramework.MetroColorStyle.Lime
-        Me.mtServicio.TabIndex = 7
-        Me.mtServicio.Text = "Iniciar/Detener servicio de sincronización"
-        Me.mtServicio.TileImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.mtServicio.UseSelectable = True
-        '
         'mtLogs
         '
         Me.mtLogs.ActiveControl = Nothing
         Me.mtLogs.Location = New System.Drawing.Point(232, 22)
         Me.mtLogs.Name = "mtLogs"
-        Me.mtLogs.Size = New System.Drawing.Size(430, 201)
+        Me.mtLogs.Size = New System.Drawing.Size(430, 170)
         Me.mtLogs.Style = MetroFramework.MetroColorStyle.Orange
         Me.mtLogs.TabIndex = 6
         Me.mtLogs.Text = "Procesos de sincronización"
         Me.mtLogs.TileImage = Global.SyncBDManager.My.Resources.Resources.sync
-        Me.mtLogs.TileImageAlign = System.Drawing.ContentAlignment.TopRight
+        Me.mtLogs.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.mtLogs.UseSelectable = True
         Me.mtLogs.UseTileImage = True
         '
@@ -120,7 +106,6 @@ Partial Class Principal
     End Sub
 
     Friend WithEvents MetroPanel1 As MetroFramework.Controls.MetroPanel
-    Friend WithEvents mtServicio As MetroFramework.Controls.MetroTile
     Friend WithEvents mtLogs As MetroFramework.Controls.MetroTile
     Friend WithEvents mtConfiguracion As MetroFramework.Controls.MetroTile
     Friend WithEvents mtLogServicio As MetroFramework.Controls.MetroTile

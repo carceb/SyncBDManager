@@ -8,7 +8,7 @@ Public Class LogLector
         lvLog.Clear()
         lvLog.View = View.Details
         lvLog.Columns.Add("Fecha", 140)
-        lvLog.Columns.Add("Proceso", 400)
+        lvLog.Columns.Add("Proceso", 500)
         Try
             Dim MyStream As New StreamReader(archivoLog)
             Dim strTemp() As String

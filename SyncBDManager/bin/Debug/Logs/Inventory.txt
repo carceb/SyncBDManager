@@ -1,16 +1,28 @@
-2/3/2018 2:26:26 p.m. | Sincronizando tabla = Inventory
-2/3/2018 2:26:26 p.m. | Dias hacia atras 20
-2/3/2018 2:26:27 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 174
-2/3/2018 2:26:27 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
-2/3/2018 2:27:26 p.m. | Sincronizando tabla = Inventory
-2/3/2018 2:27:26 p.m. | Dias hacia atras 20
-2/3/2018 2:27:27 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 174
-2/3/2018 2:27:27 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
-2/3/2018 2:28:26 p.m. | Sincronizando tabla = Inventory
-2/3/2018 2:28:26 p.m. | Dias hacia atras 20
-2/3/2018 2:28:27 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 174
-2/3/2018 2:28:27 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
-2/3/2018 2:29:26 p.m. | Sincronizando tabla = Inventory
-2/3/2018 2:29:26 p.m. | Dias hacia atras 20
-2/3/2018 2:29:27 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 174
-2/3/2018 2:29:27 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
+3/3/2018 5:52:42 p.m. | Sincronizando tabla = Inventory
+3/3/2018 5:52:42 p.m. | Dias hacia atras 30
+3/3/2018 5:52:44 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 456
+3/3/2018 5:52:44 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
+3/3/2018 5:53:42 p.m. | Sincronizando tabla = Inventory
+3/3/2018 5:53:42 p.m. | Dias hacia atras 30
+3/3/2018 5:53:44 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 456
+3/3/2018 5:53:44 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
+3/3/2018 5:54:42 p.m. | Sincronizando tabla = Inventory
+3/3/2018 5:54:42 p.m. | Dias hacia atras 30
+3/3/2018 5:54:45 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 456
+3/3/2018 5:54:45 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
+3/3/2018 5:55:42 p.m. | Sincronizando tabla = Inventory
+3/3/2018 5:55:42 p.m. | Dias hacia atras 30
+3/3/2018 5:55:45 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 456
+3/3/2018 5:55:45 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
+3/3/2018 5:56:42 p.m. | Sincronizando tabla = Inventory
+3/3/2018 5:56:42 p.m. | Dias hacia atras 30
+3/3/2018 5:56:45 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 456
+3/3/2018 5:56:45 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
+3/3/2018 5:57:42 p.m. | Sincronizando tabla = Inventory
+3/3/2018 5:57:42 p.m. | Dias hacia atras 30
+3/3/2018 5:57:45 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 456
+3/3/2018 5:57:45 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
+3/3/2018 5:58:42 p.m. | Sincronizando tabla = Inventory
+3/3/2018 5:58:42 p.m. | Dias hacia atras 30
+3/3/2018 5:58:45 p.m. | Inventory: Registros EXISTENTES sincronizados para actualización = 456
+3/3/2018 5:58:45 p.m. | Inventory: Registros NUEVOS sincronizados para actualización = 0
