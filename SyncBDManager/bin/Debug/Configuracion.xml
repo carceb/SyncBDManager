@@ -7,6 +7,6 @@
     <RutaBDAccess2003>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Public\BD\AutoDat.mdb</RutaBDAccess2003>
     <CadenaConexionMySQL>server=localhost; uid=root;pwd=123456; database=autodatasystem</CadenaConexionMySQL>
     <TiempoEjecucionServicioSincronizacion>15 Minutos</TiempoEjecucionServicioSincronizacion>
-    <BorrarLogs>No</BorrarLogs>
+    <BorrarLogs>Si</BorrarLogs>
   </Configuracion>
 </Data>

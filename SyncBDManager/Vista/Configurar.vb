@@ -78,7 +78,7 @@ Public Class Configurar
                 Try
                     result = MessageBox.Show("¿Desea eliminar los archivos log del sincronizador?, esta acción no podrá deshacerse", "Atención", MessageBoxButtons.YesNo)
                     If result = 6 Then
-                        My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\ServicioSincronizacion.txt")
+                        BorrarLogs()
                     Else
                         MessageBox.Show("No se eliminaron los archivos log", "Cancelado")
                     End If
@@ -96,5 +96,12 @@ Public Class Configurar
         Else
             mcboDias.Enabled = False
         End If
+    End Sub
+    Private Sub BorrarLogs()
+        My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\ServicioSincronizacion.txt")
+        My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\Logs\Inventory.txt")
+        My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\Logs\InventoryPricing.txt")
+        My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\Logs\InventoryItemsXRef.txt")
+        My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\Logs\Orders.txt")
     End Sub
 End Class
