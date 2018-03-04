@@ -8,7 +8,7 @@ Public Class Configurar
     Private Sub ConfigurarXML()
         Dim objetoConfigurarXML As New ConfigurarXML
         If objetoConfigurarXML.ActualizarConfiguraciones(Me) Then
-            MessageBox.Show("Configuración actualizada.")
+            MessageBox.Show("Configuración actualizada.", "Correcto")
         End If
     End Sub
     Private Sub LeerXML()
@@ -33,12 +33,13 @@ Public Class Configurar
             mtxtMySQL.Text = objetoManejoXML.ObtenerValorXML("CadenaConexionMySQL")
             mcboTiempoSincronizacion.Text = objetoManejoXML.ObtenerValorXML("TiempoEjecucionServicioSincronizacion")
 
-            borrarLogs = objetoManejoXML.ObtenerValorXML("BorrarLogs")
-            If borrarLogs = "Si" Then
-                mtgBorrarLogs.Checked = True
-            Else
-                mtgBorrarLogs.Checked = False
-            End If
+            'Se comentó debido a que los archivos logs se borran en tiempo real
+            'borrarLogs = objetoManejoXML.ObtenerValorXML("BorrarLogs")
+            'If borrarLogs = "Si" Then
+            '    mtgBorrarLogs.Checked = True
+            'Else
+            '    mtgBorrarLogs.Checked = False
+            'End If
         End If
     End Sub
     Private Function ErrorAlActualizar() As Boolean
@@ -71,7 +72,20 @@ Public Class Configurar
     End Sub
 
     Private Sub mbtnAplicar_Click(sender As Object, e As EventArgs) Handles mbtnAplicar.Click
+        Dim result As Integer
         If Not ErrorAlActualizar() Then
+            If mtgBorrarLogs.Checked = True Then
+                Try
+                    result = MessageBox.Show("¿Desea eliminar los archivos log del sincronizador?, esta acción no podrá deshacerse", "Atención", MessageBoxButtons.YesNo)
+                    If result = 6 Then
+                        My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\ServicioSincronizacion.txt")
+                    Else
+                        MessageBox.Show("No se eliminaron los archivos log", "Cancelado")
+                    End If
+                Catch ex As Exception
+
+                End Try
+            End If
             ConfigurarXML()
         End If
     End Sub
