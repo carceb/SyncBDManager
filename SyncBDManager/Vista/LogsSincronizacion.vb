@@ -30,7 +30,8 @@
     End Sub
 
     Private Sub mlnkCustormersPrsn_Click(sender As Object, e As EventArgs) Handles mlnkCustormersPrsn.Click
-        mtbdProcesosSinc.SelectedIndex = 7
+        CargarListViewLog(6)
+        mtbdProcesosSinc.SelectedIndex = 6
     End Sub
 
     Private Sub mlnkCustormersBillPrcol_Click(sender As Object, e As EventArgs) Handles mlnkCustormersBillPrcol.Click
@@ -60,6 +61,7 @@
             Case 5
                 objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\CustomersBill.txt", lvCustomersBill)
             Case 6
+                objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\CustomersBillPrsn.txt", lvCustomersBillPrsn)
             Case 7
             Case 8
             Case 9
@@ -74,5 +76,6 @@
         CargarListViewLog(3)
         CargarListViewLog(4)
         CargarListViewLog(5)
+        CargarListViewLog(6)
     End Sub
 End Class
