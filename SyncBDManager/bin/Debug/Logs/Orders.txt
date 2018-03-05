@@ -1,336 +1,52 @@
-3/3/2018 5:53:09 p.m. | Sincronizando tabla = Orders
-3/3/2018 5:53:09 p.m. | Dias hacia atras 30
-3/3/2018 5:53:10 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 5:53:10 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 5:54:09 p.m. | Sincronizando tabla = Orders
-3/3/2018 5:54:09 p.m. | Dias hacia atras 30
-3/3/2018 5:54:10 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 5:54:10 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 5:55:11 p.m. | Sincronizando tabla = Orders
-3/3/2018 5:55:11 p.m. | Dias hacia atras 30
-3/3/2018 5:55:12 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 5:55:12 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 5:56:14 p.m. | Sincronizando tabla = Orders
-3/3/2018 5:56:14 p.m. | Dias hacia atras 30
-3/3/2018 5:56:15 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 5:56:15 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 5:57:14 p.m. | Sincronizando tabla = Orders
-3/3/2018 5:57:14 p.m. | Dias hacia atras 30
-3/3/2018 5:57:15 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 5:57:15 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 5:58:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 5:58:15 p.m. | Dias hacia atras 30
-3/3/2018 5:58:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 5:58:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 5:59:20 p.m. | Sincronizando tabla = Orders
-3/3/2018 5:59:20 p.m. | Dias hacia atras 30
-3/3/2018 5:59:21 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 5:59:21 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:00:16 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:00:16 p.m. | Dias hacia atras 30
-3/3/2018 6:00:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:00:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:01:08 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:01:08 p.m. | Dias hacia atras 30
-3/3/2018 6:01:09 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:01:09 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:02:08 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:02:08 p.m. | Dias hacia atras 30
-3/3/2018 6:02:09 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:02:09 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:03:08 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:03:08 p.m. | Dias hacia atras 30
-3/3/2018 6:03:09 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:03:09 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:04:09 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:04:09 p.m. | Dias hacia atras 30
-3/3/2018 6:04:09 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:04:10 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:05:09 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:05:09 p.m. | Dias hacia atras 30
-3/3/2018 6:05:09 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:05:09 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:06:11 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:06:11 p.m. | Dias hacia atras 30
-3/3/2018 6:06:12 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:06:12 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:07:09 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:07:09 p.m. | Dias hacia atras 30
-3/3/2018 6:07:09 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:07:09 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:08:11 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:08:11 p.m. | Dias hacia atras 30
-3/3/2018 6:08:12 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:08:12 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:09:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:09:15 p.m. | Dias hacia atras 30
-3/3/2018 6:09:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:09:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:10:12 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:10:12 p.m. | Dias hacia atras 30
-3/3/2018 6:10:13 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:10:13 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:11:12 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:11:12 p.m. | Dias hacia atras 30
-3/3/2018 6:11:13 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:11:13 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:12:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:12:15 p.m. | Dias hacia atras 30
-3/3/2018 6:12:15 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:12:15 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:13:11 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:13:12 p.m. | Dias hacia atras 30
-3/3/2018 6:13:12 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:13:12 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:14:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:14:15 p.m. | Dias hacia atras 30
-3/3/2018 6:14:15 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:14:15 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:15:28 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:15:28 p.m. | Dias hacia atras 30
-3/3/2018 6:15:29 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:15:29 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:16:13 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:16:13 p.m. | Dias hacia atras 30
-3/3/2018 6:16:13 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:16:13 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:17:12 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:17:12 p.m. | Dias hacia atras 30
-3/3/2018 6:17:13 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:17:13 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:18:13 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:18:13 p.m. | Dias hacia atras 30
-3/3/2018 6:18:14 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:18:14 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:19:16 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:19:16 p.m. | Dias hacia atras 30
-3/3/2018 6:19:17 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:19:17 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:20:17 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:20:17 p.m. | Dias hacia atras 30
-3/3/2018 6:20:18 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:20:18 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:21:19 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:21:19 p.m. | Dias hacia atras 30
-3/3/2018 6:21:20 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:21:20 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:22:13 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:22:13 p.m. | Dias hacia atras 30
-3/3/2018 6:22:14 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:22:14 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:23:18 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:23:18 p.m. | Dias hacia atras 30
-3/3/2018 6:23:19 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:23:19 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:24:17 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:24:17 p.m. | Dias hacia atras 30
-3/3/2018 6:24:19 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:24:19 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:25:14 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:25:14 p.m. | Dias hacia atras 30
-3/3/2018 6:25:15 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:25:15 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:26:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:26:15 p.m. | Dias hacia atras 30
-3/3/2018 6:26:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:26:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:27:18 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:27:18 p.m. | Dias hacia atras 30
-3/3/2018 6:27:19 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:27:19 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:28:23 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:28:23 p.m. | Dias hacia atras 30
-3/3/2018 6:28:24 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:28:24 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:29:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:29:15 p.m. | Dias hacia atras 30
-3/3/2018 6:29:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:29:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:30:16 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:30:16 p.m. | Dias hacia atras 30
-3/3/2018 6:30:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:30:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:31:10 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:31:10 p.m. | Dias hacia atras 30
-3/3/2018 6:31:11 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:31:11 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:32:17 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:32:17 p.m. | Dias hacia atras 30
-3/3/2018 6:32:18 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:32:18 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:33:13 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:33:13 p.m. | Dias hacia atras 30
-3/3/2018 6:33:14 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:33:14 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:34:13 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:34:13 p.m. | Dias hacia atras 30
-3/3/2018 6:34:13 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:34:13 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:35:14 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:35:14 p.m. | Dias hacia atras 30
-3/3/2018 6:35:15 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:35:15 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:36:19 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:36:19 p.m. | Dias hacia atras 30
-3/3/2018 6:36:20 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:36:20 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:37:12 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:37:12 p.m. | Dias hacia atras 30
-3/3/2018 6:37:13 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:37:13 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:38:14 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:38:14 p.m. | Dias hacia atras 30
-3/3/2018 6:38:14 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:38:14 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:39:12 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:39:12 p.m. | Dias hacia atras 30
-3/3/2018 6:39:13 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:39:13 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:40:17 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:40:17 p.m. | Dias hacia atras 30
-3/3/2018 6:40:18 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:40:18 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:41:12 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:41:12 p.m. | Dias hacia atras 30
-3/3/2018 6:41:13 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:41:13 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:42:16 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:42:16 p.m. | Dias hacia atras 30
-3/3/2018 6:42:17 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:42:17 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:43:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:43:15 p.m. | Dias hacia atras 30
-3/3/2018 6:43:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:43:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:44:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:44:15 p.m. | Dias hacia atras 30
-3/3/2018 6:44:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:44:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:45:21 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:45:21 p.m. | Dias hacia atras 30
-3/3/2018 6:45:22 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:45:22 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:46:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:46:15 p.m. | Dias hacia atras 30
-3/3/2018 6:46:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:46:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:47:17 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:47:17 p.m. | Dias hacia atras 30
-3/3/2018 6:47:18 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:47:18 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:48:18 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:48:18 p.m. | Dias hacia atras 30
-3/3/2018 6:48:19 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:48:19 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:49:19 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:49:19 p.m. | Dias hacia atras 30
-3/3/2018 6:49:20 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:49:20 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:50:11 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:50:11 p.m. | Dias hacia atras 30
-3/3/2018 6:50:11 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:50:11 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:51:19 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:51:19 p.m. | Dias hacia atras 30
-3/3/2018 6:51:20 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:51:20 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:52:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:52:15 p.m. | Dias hacia atras 30
-3/3/2018 6:52:15 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:52:15 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:53:13 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:53:13 p.m. | Dias hacia atras 30
-3/3/2018 6:53:14 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:53:14 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:54:20 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:54:20 p.m. | Dias hacia atras 30
-3/3/2018 6:54:21 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:54:21 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:55:14 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:55:14 p.m. | Dias hacia atras 30
-3/3/2018 6:55:15 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:55:15 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:56:16 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:56:16 p.m. | Dias hacia atras 30
-3/3/2018 6:56:17 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:56:17 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:57:11 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:57:11 p.m. | Dias hacia atras 30
-3/3/2018 6:57:12 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:57:12 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:58:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:58:15 p.m. | Dias hacia atras 30
-3/3/2018 6:58:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:58:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 6:59:22 p.m. | Sincronizando tabla = Orders
-3/3/2018 6:59:22 p.m. | Dias hacia atras 30
-3/3/2018 6:59:23 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 6:59:23 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:00:22 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:00:22 p.m. | Dias hacia atras 30
-3/3/2018 7:00:23 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:00:23 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:01:17 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:01:17 p.m. | Dias hacia atras 30
-3/3/2018 7:01:17 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:01:17 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:02:20 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:02:20 p.m. | Dias hacia atras 30
-3/3/2018 7:02:21 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:02:21 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:03:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:03:15 p.m. | Dias hacia atras 30
-3/3/2018 7:03:15 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:03:15 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:04:14 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:04:14 p.m. | Dias hacia atras 30
-3/3/2018 7:04:14 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:04:14 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:05:13 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:05:13 p.m. | Dias hacia atras 30
-3/3/2018 7:05:14 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:05:14 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:06:16 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:06:16 p.m. | Dias hacia atras 30
-3/3/2018 7:06:17 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:06:17 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:07:17 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:07:17 p.m. | Dias hacia atras 30
-3/3/2018 7:07:19 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:07:19 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:08:13 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:08:13 p.m. | Dias hacia atras 30
-3/3/2018 7:08:14 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:08:14 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:09:18 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:09:18 p.m. | Dias hacia atras 30
-3/3/2018 7:09:19 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:09:19 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:10:15 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:10:15 p.m. | Dias hacia atras 30
-3/3/2018 7:10:16 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:10:16 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:11:13 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:11:13 p.m. | Dias hacia atras 30
-3/3/2018 7:11:14 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:11:14 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:44:38 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:44:38 p.m. | Dias hacia atras 30
-3/3/2018 7:44:39 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:44:39 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:45:31 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:45:31 p.m. | Dias hacia atras 30
-3/3/2018 7:45:32 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:45:32 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:46:34 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:46:34 p.m. | Dias hacia atras 30
-3/3/2018 7:46:35 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:46:35 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:47:43 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:47:43 p.m. | Dias hacia atras 30
-3/3/2018 7:47:44 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:47:44 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
-3/3/2018 7:48:35 p.m. | Sincronizando tabla = Orders
-3/3/2018 7:48:35 p.m. | Dias hacia atras 30
-3/3/2018 7:48:36 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
-3/3/2018 7:48:36 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 126
+5/3/2018 2:17:24 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:17:24 p.m. | Dias hacia atras 30
+5/3/2018 2:17:25 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:17:25 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:18:30 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:18:30 p.m. | Dias hacia atras 30
+5/3/2018 2:18:30 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:18:30 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:19:32 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:19:32 p.m. | Dias hacia atras 30
+5/3/2018 2:19:32 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:19:32 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:20:28 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:20:28 p.m. | Dias hacia atras 30
+5/3/2018 2:20:29 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:20:29 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:21:29 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:21:29 p.m. | Dias hacia atras 30
+5/3/2018 2:21:30 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:21:30 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:22:23 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:22:23 p.m. | Dias hacia atras 30
+5/3/2018 2:22:24 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:22:24 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:23:27 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:23:27 p.m. | Dias hacia atras 30
+5/3/2018 2:23:28 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:23:28 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:24:24 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:24:24 p.m. | Dias hacia atras 30
+5/3/2018 2:24:25 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:24:25 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:25:26 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:25:26 p.m. | Dias hacia atras 30
+5/3/2018 2:25:27 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:25:27 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:26:33 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:26:33 p.m. | Dias hacia atras 30
+5/3/2018 2:26:34 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:26:34 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:27:35 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:27:35 p.m. | Dias hacia atras 30
+5/3/2018 2:27:35 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:27:35 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:28:29 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:28:29 p.m. | Dias hacia atras 30
+5/3/2018 2:28:30 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:28:30 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112
+5/3/2018 2:29:26 p.m. | Sincronizando tabla = Orders
+5/3/2018 2:29:26 p.m. | Dias hacia atras 30
+5/3/2018 2:29:27 p.m. | Orders: Registros NUEVOS sincronizados para actualización = 0
+5/3/2018 2:29:27 p.m. | Orders: Registros EXISTENTES sincronizados para actualización = 112

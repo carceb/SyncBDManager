@@ -1,36 +1,32 @@
 ﻿Public Class LogsSincronizacion
-
     Private Sub LogsSincronizacion_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CargarListViewLog(0)
         mtbdProcesosSinc.SelectedIndex = 0
     End Sub
     Private Sub mlnkInventory_Click(sender As Object, e As EventArgs) Handles mlnkInventory.Click
-        mtbdProcesosSinc.SelectedIndex = 0
         CargarListViewLog(0)
+        mtbdProcesosSinc.SelectedIndex = 0
     End Sub
     Private Sub mlnkInventoryPricing_Click(sender As Object, e As EventArgs) Handles mlnkInventoryPricing.Click
-        mtbdProcesosSinc.SelectedIndex = 1
         CargarListViewLog(1)
+        mtbdProcesosSinc.SelectedIndex = 1
     End Sub
     Private Sub mlnkInventoryItemXRef_Click(sender As Object, e As EventArgs) Handles mlnkInventoryItemXRef.Click
-        mtbdProcesosSinc.SelectedIndex = 2
         CargarListViewLog(2)
+        mtbdProcesosSinc.SelectedIndex = 2
     End Sub
     Private Sub mlnkOrders_Click(sender As Object, e As EventArgs) Handles mlnkOrders.Click
-        mtbdProcesosSinc.SelectedIndex = 3
         CargarListViewLog(3)
+        mtbdProcesosSinc.SelectedIndex = 3
     End Sub
 
     Private Sub mlnkOrdersDetail_Click(sender As Object, e As EventArgs) Handles mlnkOrdersDetail.Click
+        CargarListViewLog(4)
         mtbdProcesosSinc.SelectedIndex = 4
     End Sub
-
-    Private Sub MetroLink1_Click(sender As Object, e As EventArgs) Handles MetroLink1.Click
-        mtbdProcesosSinc.SelectedIndex = 5
-    End Sub
-
     Private Sub mlnkCustormersBill_Click(sender As Object, e As EventArgs) Handles mlnkCustormersBill.Click
-        mtbdProcesosSinc.SelectedIndex = 6
+        CargarListViewLog(5)
+        mtbdProcesosSinc.SelectedIndex = 5
     End Sub
 
     Private Sub mlnkCustormersPrsn_Click(sender As Object, e As EventArgs) Handles mlnkCustormersPrsn.Click
@@ -60,7 +56,9 @@
             Case 3
                 objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\Orders.txt", mlvOrders)
             Case 4
+                objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\OrdersDetail.txt", lvOrdersDetail)
             Case 5
+                objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\CustomersBill.txt", lvCustomersBill)
             Case 6
             Case 7
             Case 8
@@ -74,5 +72,7 @@
         CargarListViewLog(1)
         CargarListViewLog(2)
         CargarListViewLog(3)
+        CargarListViewLog(4)
+        CargarListViewLog(5)
     End Sub
 End Class

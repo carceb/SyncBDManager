@@ -103,5 +103,6 @@ Public Class Configurar
         My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\Logs\InventoryPricing.txt")
         My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\Logs\InventoryItemsXRef.txt")
         My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\Logs\Orders.txt")
+        My.Computer.FileSystem.DeleteFile(Application.StartupPath & "\Logs\OrdersDetail.txt")
     End Sub
 End Class
