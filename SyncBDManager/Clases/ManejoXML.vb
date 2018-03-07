@@ -2,11 +2,11 @@
 Public Class ManejoXML
     Public Sub New()
     End Sub
-    Public Function ObtenerValorXML(nombreNodo As String) As String
+    Public Function ObtenerValorXML(nombreNodo As String, nombreArchivoXML As String) As String
         Dim resultadoValorNodo As String = ""
         Dim confFilePath As String
         Try
-            confFilePath = My.Application.Info.DirectoryPath & "\Configuracion.xml"
+            confFilePath = My.Application.Info.DirectoryPath & "\" & nombreArchivoXML
             If (IO.File.Exists(confFilePath)) Then
                 Dim document As XmlReader = New XmlTextReader(confFilePath)
                 While (document.Read())
@@ -20,11 +20,10 @@ Public Class ManejoXML
                 document.Close()
                 ObtenerValorXML = resultadoValorNodo
             Else
-                ObtenerValorXML = "Error"
-                MessageBox.Show("Aún no ha realizado la configuracion del servicio de sincronización.")
+                ObtenerValorXML = "0"
             End If
         Catch ex As Exception
-            ObtenerValorXML = "Error"
+            ObtenerValorXML = "0"
         End Try
     End Function
 End Class

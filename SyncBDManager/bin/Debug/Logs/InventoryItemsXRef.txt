@@ -1,10 +1,4 @@
-5/3/2018 5:04:10 p.m. | Sincronizando tabla = InventoryItemsXRef
-5/3/2018 5:04:24 p.m. | InventoryItemsXRef: Registros NUEVOS sincronizados para actualización = 386
-5/3/2018 5:05:14 p.m. | Sincronizando tabla = InventoryItemsXRef
-5/3/2018 5:05:30 p.m. | InventoryItemsXRef: Registros NUEVOS sincronizados para actualización = 386
-5/3/2018 5:06:28 p.m. | Sincronizando tabla = InventoryItemsXRef
-5/3/2018 5:06:48 p.m. | InventoryItemsXRef: Registros NUEVOS sincronizados para actualización = 386
-5/3/2018 5:07:19 p.m. | Sincronizando tabla = InventoryItemsXRef
-5/3/2018 5:07:44 p.m. | InventoryItemsXRef: Registros NUEVOS sincronizados para actualización = 386
-5/3/2018 5:08:16 p.m. | Sincronizando tabla = InventoryItemsXRef
-5/3/2018 5:08:35 p.m. | InventoryItemsXRef: Registros NUEVOS sincronizados para actualización = 386
+7/3/2018 4:12:33 p.m. | Sincronizando tabla = InventoryItemsXRef
+7/3/2018 4:12:33 p.m. | InventoryItemsXRef: Registros NUEVOS sincronizados para actualización = 1
+7/3/2018 4:13:33 p.m. | Sincronizando tabla = InventoryItemsXRef
+7/3/2018 4:13:33 p.m. | InventoryItemsXRef: Registros NUEVOS sincronizados para actualización = 1

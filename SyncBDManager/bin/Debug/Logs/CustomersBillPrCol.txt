@@ -1,0 +1,4 @@
+7/3/2018 4:12:54 p.m. | Sincronizando tabla = CustomersBillPrCol
+7/3/2018 4:13:09 p.m. | CustomersBillPrCol: Registros sincronizados para actualización = 4486
+7/3/2018 4:13:53 p.m. | Sincronizando tabla = CustomersBillPrCol
+7/3/2018 4:14:06 p.m. | CustomersBillPrCol: Registros sincronizados para actualización = 4486

@@ -35,15 +35,13 @@
     End Sub
 
     Private Sub mlnkCustormersBillPrcol_Click(sender As Object, e As EventArgs) Handles mlnkCustormersBillPrcol.Click
-        mtbdProcesosSinc.SelectedIndex = 8
+        CargarListViewLog(7)
+        mtbdProcesosSinc.SelectedIndex = 7
     End Sub
 
     Private Sub mlnkCodesCat_Click(sender As Object, e As EventArgs) Handles mlnkCodesCat.Click
-        mtbdProcesosSinc.SelectedIndex = 9
-    End Sub
-
-    Private Sub mlnkCodesCatSub_Click(sender As Object, e As EventArgs) Handles mlnkCodesCatSub.Click
-        mtbdProcesosSinc.SelectedIndex = 10
+        CargarListViewLog(8)
+        mtbdProcesosSinc.SelectedIndex = 8
     End Sub
     Private Sub CargarListViewLog(listViewACargar As Integer)
         Dim objetoLogLector As New LogLector
@@ -63,9 +61,9 @@
             Case 6
                 objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\CustomersBillPrsn.txt", lvCustomersBillPrsn)
             Case 7
+                objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\CustomersBillPrCol.txt", lvCustomersBillProCol)
             Case 8
-            Case 9
-            Case 10
+                objetoLogLector.CargarArchivoLog(Application.StartupPath & "\Logs\CodesCatSub.txt", lvCodCatSub)
         End Select
     End Sub
 
@@ -77,5 +75,7 @@
         CargarListViewLog(4)
         CargarListViewLog(5)
         CargarListViewLog(6)
+        CargarListViewLog(7)
+        CargarListViewLog(8)
     End Sub
 End Class

@@ -1,0 +1,6 @@
+7/3/2018 4:12:53 p.m. | Sincronizando tabla = CodesCatSub
+7/3/2018 4:12:54 p.m. | CodesCatSub: Registros NUEVOS sincronizados para actualización = 0
+7/3/2018 4:12:54 p.m. | CodesCatSub: Registros EXISTENTES sincronizados para actualización = 150
+7/3/2018 4:13:52 p.m. | Sincronizando tabla = CodesCatSub
+7/3/2018 4:13:53 p.m. | CodesCatSub: Registros NUEVOS sincronizados para actualización = 0
+7/3/2018 4:13:53 p.m. | CodesCatSub: Registros EXISTENTES sincronizados para actualización = 150

@@ -13,10 +13,10 @@ Public Class Configurar
     End Sub
     Private Sub LeerXML()
         Dim objetoManejoXML As New ManejoXML
-        Dim filtroDiaActual As String, borrarLogs As String
+        Dim filtroDiaActual As String
 
-        If objetoManejoXML.ObtenerValorXML("FiltraSiempreDiaActual") <> "Error" Then
-            filtroDiaActual = objetoManejoXML.ObtenerValorXML("FiltraSiempreDiaActual")
+        If objetoManejoXML.ObtenerValorXML("FiltraSiempreDiaActual", "Configuracion.xml") <> "Error" Then
+            filtroDiaActual = objetoManejoXML.ObtenerValorXML("FiltraSiempreDiaActual", "Configuracion.xml")
             If filtroDiaActual = "Si" Then
                 mtgHoy.Checked = True
             Else
@@ -26,12 +26,12 @@ Public Class Configurar
             If mtgHoy.Checked = True Then
                 mcboDias.Text = "0"
             Else
-                mcboDias.Text = objetoManejoXML.ObtenerValorXML("CantidadDiasRestaDiaActual")
+                mcboDias.Text = objetoManejoXML.ObtenerValorXML("CantidadDiasRestaDiaActual", "Configuracion.xml")
             End If
 
-            mtxtAccess.Text = objetoManejoXML.ObtenerValorXML("RutaBDAccess2003")
-            mtxtMySQL.Text = objetoManejoXML.ObtenerValorXML("CadenaConexionMySQL")
-            mcboTiempoSincronizacion.Text = objetoManejoXML.ObtenerValorXML("TiempoEjecucionServicioSincronizacion")
+            mtxtAccess.Text = objetoManejoXML.ObtenerValorXML("RutaBDAccess2003", "Configuracion.xml")
+            mtxtMySQL.Text = objetoManejoXML.ObtenerValorXML("CadenaConexionMySQL", "Configuracion.xml")
+            mcboTiempoSincronizacion.Text = objetoManejoXML.ObtenerValorXML("TiempoEjecucionServicioSincronizacion", "Configuracion.xml")
 
             'Se comentó debido a que los archivos logs se borran en tiempo real
             'borrarLogs = objetoManejoXML.ObtenerValorXML("BorrarLogs")

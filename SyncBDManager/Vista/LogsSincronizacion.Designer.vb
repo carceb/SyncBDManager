@@ -23,7 +23,6 @@ Partial Class LogsSincronizacion
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.mpMenu = New MetroFramework.Controls.MetroPanel()
-        Me.mlnkCodesCatSub = New MetroFramework.Controls.MetroLink()
         Me.mlnkCodesCat = New MetroFramework.Controls.MetroLink()
         Me.mlnkCustormersBillPrcol = New MetroFramework.Controls.MetroLink()
         Me.mlnkCustormersPrsn = New MetroFramework.Controls.MetroLink()
@@ -34,9 +33,6 @@ Partial Class LogsSincronizacion
         Me.mlnkInventoryPricing = New MetroFramework.Controls.MetroLink()
         Me.mlnkInventory = New MetroFramework.Controls.MetroLink()
         Me.mtbdProcesosSinc = New MetroFramework.Controls.MetroTabControl()
-        Me.mtbConfiguracion = New MetroFramework.Controls.MetroTabPage()
-        Me.mlvOrders = New System.Windows.Forms.ListView()
-        Me.MetroLabel7 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPage10 = New MetroFramework.Controls.MetroTabPage()
         Me.lvInventory = New System.Windows.Forms.ListView()
         Me.MetroLabel11 = New MetroFramework.Controls.MetroLabel()
@@ -46,6 +42,9 @@ Partial Class LogsSincronizacion
         Me.MetroTabPage2 = New MetroFramework.Controls.MetroTabPage()
         Me.mlvInventoryItemXRef = New System.Windows.Forms.ListView()
         Me.MetroLabel5 = New MetroFramework.Controls.MetroLabel()
+        Me.mtbConfiguracion = New MetroFramework.Controls.MetroTabPage()
+        Me.mlvOrders = New System.Windows.Forms.ListView()
+        Me.MetroLabel7 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPage3 = New MetroFramework.Controls.MetroTabPage()
         Me.lvOrdersDetail = New System.Windows.Forms.ListView()
         Me.MetroLabel1 = New MetroFramework.Controls.MetroLabel()
@@ -56,33 +55,28 @@ Partial Class LogsSincronizacion
         Me.lvCustomersBillPrsn = New System.Windows.Forms.ListView()
         Me.MetroLabel4 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPage6 = New MetroFramework.Controls.MetroTabPage()
+        Me.lvCustomersBillProCol = New System.Windows.Forms.ListView()
         Me.MetroLabel6 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPage7 = New MetroFramework.Controls.MetroTabPage()
+        Me.lvCodCatSub = New System.Windows.Forms.ListView()
         Me.MetroLabel8 = New MetroFramework.Controls.MetroLabel()
-        Me.MetroTabPage8 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroLabel9 = New MetroFramework.Controls.MetroLabel()
-        Me.MetroTabPage9 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroLabel10 = New MetroFramework.Controls.MetroLabel()
         Me.MetroButton1 = New MetroFramework.Controls.MetroButton()
         Me.mpMenu.SuspendLayout()
         Me.mtbdProcesosSinc.SuspendLayout()
-        Me.mtbConfiguracion.SuspendLayout()
         Me.MetroTabPage10.SuspendLayout()
         Me.MetroTabPage1.SuspendLayout()
         Me.MetroTabPage2.SuspendLayout()
+        Me.mtbConfiguracion.SuspendLayout()
         Me.MetroTabPage3.SuspendLayout()
         Me.MetroTabPage4.SuspendLayout()
         Me.MetroTabPage5.SuspendLayout()
         Me.MetroTabPage6.SuspendLayout()
         Me.MetroTabPage7.SuspendLayout()
-        Me.MetroTabPage8.SuspendLayout()
-        Me.MetroTabPage9.SuspendLayout()
         Me.SuspendLayout()
         '
         'mpMenu
         '
         Me.mpMenu.AutoScroll = True
-        Me.mpMenu.Controls.Add(Me.mlnkCodesCatSub)
         Me.mpMenu.Controls.Add(Me.mlnkCodesCat)
         Me.mpMenu.Controls.Add(Me.mlnkCustormersBillPrcol)
         Me.mpMenu.Controls.Add(Me.mlnkCustormersPrsn)
@@ -105,18 +99,6 @@ Partial Class LogsSincronizacion
         Me.mpMenu.VerticalScrollbarHighlightOnWheel = False
         Me.mpMenu.VerticalScrollbarSize = 10
         '
-        'mlnkCodesCatSub
-        '
-        Me.mlnkCodesCatSub.Image = Global.SyncBDManager.My.Resources.Resources.sync
-        Me.mlnkCodesCatSub.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.mlnkCodesCatSub.ImageSize = 22
-        Me.mlnkCodesCatSub.Location = New System.Drawing.Point(20, 343)
-        Me.mlnkCodesCatSub.Name = "mlnkCodesCatSub"
-        Me.mlnkCodesCatSub.Size = New System.Drawing.Size(146, 27)
-        Me.mlnkCodesCatSub.TabIndex = 14
-        Me.mlnkCodesCatSub.Text = "Codes Cat Sub"
-        Me.mlnkCodesCatSub.UseSelectable = True
-        '
         'mlnkCodesCat
         '
         Me.mlnkCodesCat.Image = Global.SyncBDManager.My.Resources.Resources.sync
@@ -124,9 +106,9 @@ Partial Class LogsSincronizacion
         Me.mlnkCodesCat.ImageSize = 22
         Me.mlnkCodesCat.Location = New System.Drawing.Point(20, 278)
         Me.mlnkCodesCat.Name = "mlnkCodesCat"
-        Me.mlnkCodesCat.Size = New System.Drawing.Size(124, 27)
+        Me.mlnkCodesCat.Size = New System.Drawing.Size(146, 27)
         Me.mlnkCodesCat.TabIndex = 12
-        Me.mlnkCodesCat.Text = "Codes Cat"
+        Me.mlnkCodesCat.Text = "Codes Cat Sub"
         Me.mlnkCodesCat.UseSelectable = True
         '
         'mlnkCustormersBillPrcol
@@ -196,7 +178,7 @@ Partial Class LogsSincronizacion
         Me.mlnkInventoryItemXRef.ImageSize = 22
         Me.mlnkInventoryItemXRef.Location = New System.Drawing.Point(20, 79)
         Me.mlnkInventoryItemXRef.Name = "mlnkInventoryItemXRef"
-        Me.mlnkInventoryItemXRef.Size = New System.Drawing.Size(180, 27)
+        Me.mlnkInventoryItemXRef.Size = New System.Drawing.Size(195, 27)
         Me.mlnkInventoryItemXRef.TabIndex = 5
         Me.mlnkInventoryItemXRef.Text = "Inventory Item X Ref"
         Me.mlnkInventoryItemXRef.UseSelectable = True
@@ -208,7 +190,7 @@ Partial Class LogsSincronizacion
         Me.mlnkInventoryPricing.ImageSize = 22
         Me.mlnkInventoryPricing.Location = New System.Drawing.Point(20, 46)
         Me.mlnkInventoryPricing.Name = "mlnkInventoryPricing"
-        Me.mlnkInventoryPricing.Size = New System.Drawing.Size(158, 27)
+        Me.mlnkInventoryPricing.Size = New System.Drawing.Size(170, 27)
         Me.mlnkInventoryPricing.TabIndex = 4
         Me.mlnkInventoryPricing.Text = "Inventory Pricing"
         Me.mlnkInventoryPricing.UseSelectable = True
@@ -220,7 +202,7 @@ Partial Class LogsSincronizacion
         Me.mlnkInventory.ImageSize = 22
         Me.mlnkInventory.Location = New System.Drawing.Point(20, 13)
         Me.mlnkInventory.Name = "mlnkInventory"
-        Me.mlnkInventory.Size = New System.Drawing.Size(124, 27)
+        Me.mlnkInventory.Size = New System.Drawing.Size(130, 27)
         Me.mlnkInventory.TabIndex = 3
         Me.mlnkInventory.Text = "Inventory"
         Me.mlnkInventory.UseSelectable = True
@@ -236,49 +218,12 @@ Partial Class LogsSincronizacion
         Me.mtbdProcesosSinc.Controls.Add(Me.MetroTabPage5)
         Me.mtbdProcesosSinc.Controls.Add(Me.MetroTabPage6)
         Me.mtbdProcesosSinc.Controls.Add(Me.MetroTabPage7)
-        Me.mtbdProcesosSinc.Controls.Add(Me.MetroTabPage8)
-        Me.mtbdProcesosSinc.Controls.Add(Me.MetroTabPage9)
         Me.mtbdProcesosSinc.Location = New System.Drawing.Point(309, 29)
         Me.mtbdProcesosSinc.Name = "mtbdProcesosSinc"
         Me.mtbdProcesosSinc.SelectedIndex = 0
         Me.mtbdProcesosSinc.Size = New System.Drawing.Size(407, 366)
         Me.mtbdProcesosSinc.TabIndex = 16
         Me.mtbdProcesosSinc.UseSelectable = True
-        '
-        'mtbConfiguracion
-        '
-        Me.mtbConfiguracion.Controls.Add(Me.mlvOrders)
-        Me.mtbConfiguracion.Controls.Add(Me.MetroLabel7)
-        Me.mtbConfiguracion.HorizontalScrollbarBarColor = True
-        Me.mtbConfiguracion.HorizontalScrollbarHighlightOnWheel = False
-        Me.mtbConfiguracion.HorizontalScrollbarSize = 10
-        Me.mtbConfiguracion.Location = New System.Drawing.Point(4, 38)
-        Me.mtbConfiguracion.Name = "mtbConfiguracion"
-        Me.mtbConfiguracion.Size = New System.Drawing.Size(399, 324)
-        Me.mtbConfiguracion.TabIndex = 2
-        Me.mtbConfiguracion.VerticalScrollbarBarColor = True
-        Me.mtbConfiguracion.VerticalScrollbarHighlightOnWheel = False
-        Me.mtbConfiguracion.VerticalScrollbarSize = 10
-        '
-        'mlvOrders
-        '
-        Me.mlvOrders.AllowColumnReorder = True
-        Me.mlvOrders.Location = New System.Drawing.Point(13, 34)
-        Me.mlvOrders.Name = "mlvOrders"
-        Me.mlvOrders.Size = New System.Drawing.Size(382, 294)
-        Me.mlvOrders.TabIndex = 29
-        Me.mlvOrders.UseCompatibleStateImageBehavior = False
-        '
-        'MetroLabel7
-        '
-        Me.MetroLabel7.AutoSize = True
-        Me.MetroLabel7.FontSize = MetroFramework.MetroLabelSize.Tall
-        Me.MetroLabel7.FontWeight = MetroFramework.MetroLabelWeight.Regular
-        Me.MetroLabel7.Location = New System.Drawing.Point(17, 6)
-        Me.MetroLabel7.Name = "MetroLabel7"
-        Me.MetroLabel7.Size = New System.Drawing.Size(66, 25)
-        Me.MetroLabel7.TabIndex = 28
-        Me.MetroLabel7.Text = "Orders"
         '
         'MetroTabPage10
         '
@@ -385,6 +330,41 @@ Partial Class LogsSincronizacion
         Me.MetroLabel5.TabIndex = 12
         Me.MetroLabel5.Text = "Inventory Item X Ref"
         '
+        'mtbConfiguracion
+        '
+        Me.mtbConfiguracion.Controls.Add(Me.mlvOrders)
+        Me.mtbConfiguracion.Controls.Add(Me.MetroLabel7)
+        Me.mtbConfiguracion.HorizontalScrollbarBarColor = True
+        Me.mtbConfiguracion.HorizontalScrollbarHighlightOnWheel = False
+        Me.mtbConfiguracion.HorizontalScrollbarSize = 10
+        Me.mtbConfiguracion.Location = New System.Drawing.Point(4, 38)
+        Me.mtbConfiguracion.Name = "mtbConfiguracion"
+        Me.mtbConfiguracion.Size = New System.Drawing.Size(399, 324)
+        Me.mtbConfiguracion.TabIndex = 2
+        Me.mtbConfiguracion.VerticalScrollbarBarColor = True
+        Me.mtbConfiguracion.VerticalScrollbarHighlightOnWheel = False
+        Me.mtbConfiguracion.VerticalScrollbarSize = 10
+        '
+        'mlvOrders
+        '
+        Me.mlvOrders.AllowColumnReorder = True
+        Me.mlvOrders.Location = New System.Drawing.Point(13, 34)
+        Me.mlvOrders.Name = "mlvOrders"
+        Me.mlvOrders.Size = New System.Drawing.Size(382, 294)
+        Me.mlvOrders.TabIndex = 29
+        Me.mlvOrders.UseCompatibleStateImageBehavior = False
+        '
+        'MetroLabel7
+        '
+        Me.MetroLabel7.AutoSize = True
+        Me.MetroLabel7.FontSize = MetroFramework.MetroLabelSize.Tall
+        Me.MetroLabel7.FontWeight = MetroFramework.MetroLabelWeight.Regular
+        Me.MetroLabel7.Location = New System.Drawing.Point(17, 6)
+        Me.MetroLabel7.Name = "MetroLabel7"
+        Me.MetroLabel7.Size = New System.Drawing.Size(66, 25)
+        Me.MetroLabel7.TabIndex = 28
+        Me.MetroLabel7.Text = "Orders"
+        '
         'MetroTabPage3
         '
         Me.MetroTabPage3.Controls.Add(Me.lvOrdersDetail)
@@ -486,12 +466,13 @@ Partial Class LogsSincronizacion
         Me.MetroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular
         Me.MetroLabel4.Location = New System.Drawing.Point(17, 6)
         Me.MetroLabel4.Name = "MetroLabel4"
-        Me.MetroLabel4.Size = New System.Drawing.Size(136, 25)
+        Me.MetroLabel4.Size = New System.Drawing.Size(163, 25)
         Me.MetroLabel4.TabIndex = 31
-        Me.MetroLabel4.Text = "Customers Prsn"
+        Me.MetroLabel4.Text = "Customers Bill Prsn"
         '
         'MetroTabPage6
         '
+        Me.MetroTabPage6.Controls.Add(Me.lvCustomersBillProCol)
         Me.MetroTabPage6.Controls.Add(Me.MetroLabel6)
         Me.MetroTabPage6.HorizontalScrollbarBarColor = True
         Me.MetroTabPage6.HorizontalScrollbarHighlightOnWheel = False
@@ -503,6 +484,15 @@ Partial Class LogsSincronizacion
         Me.MetroTabPage6.VerticalScrollbarBarColor = True
         Me.MetroTabPage6.VerticalScrollbarHighlightOnWheel = False
         Me.MetroTabPage6.VerticalScrollbarSize = 10
+        '
+        'lvCustomersBillProCol
+        '
+        Me.lvCustomersBillProCol.AllowColumnReorder = True
+        Me.lvCustomersBillProCol.Location = New System.Drawing.Point(13, 34)
+        Me.lvCustomersBillProCol.Name = "lvCustomersBillProCol"
+        Me.lvCustomersBillProCol.Size = New System.Drawing.Size(382, 294)
+        Me.lvCustomersBillProCol.TabIndex = 33
+        Me.lvCustomersBillProCol.UseCompatibleStateImageBehavior = False
         '
         'MetroLabel6
         '
@@ -517,6 +507,7 @@ Partial Class LogsSincronizacion
         '
         'MetroTabPage7
         '
+        Me.MetroTabPage7.Controls.Add(Me.lvCodCatSub)
         Me.MetroTabPage7.Controls.Add(Me.MetroLabel8)
         Me.MetroTabPage7.HorizontalScrollbarBarColor = True
         Me.MetroTabPage7.HorizontalScrollbarHighlightOnWheel = False
@@ -529,6 +520,15 @@ Partial Class LogsSincronizacion
         Me.MetroTabPage7.VerticalScrollbarHighlightOnWheel = False
         Me.MetroTabPage7.VerticalScrollbarSize = 10
         '
+        'lvCodCatSub
+        '
+        Me.lvCodCatSub.AllowColumnReorder = True
+        Me.lvCodCatSub.Location = New System.Drawing.Point(13, 34)
+        Me.lvCodCatSub.Name = "lvCodCatSub"
+        Me.lvCodCatSub.Size = New System.Drawing.Size(382, 294)
+        Me.lvCodCatSub.TabIndex = 34
+        Me.lvCodCatSub.UseCompatibleStateImageBehavior = False
+        '
         'MetroLabel8
         '
         Me.MetroLabel8.AutoSize = True
@@ -536,59 +536,9 @@ Partial Class LogsSincronizacion
         Me.MetroLabel8.FontWeight = MetroFramework.MetroLabelWeight.Regular
         Me.MetroLabel8.Location = New System.Drawing.Point(17, 6)
         Me.MetroLabel8.Name = "MetroLabel8"
-        Me.MetroLabel8.Size = New System.Drawing.Size(168, 25)
+        Me.MetroLabel8.Size = New System.Drawing.Size(112, 25)
         Me.MetroLabel8.TabIndex = 33
-        Me.MetroLabel8.Text = "Customers Bill Prcol"
-        '
-        'MetroTabPage8
-        '
-        Me.MetroTabPage8.Controls.Add(Me.MetroLabel9)
-        Me.MetroTabPage8.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage8.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage8.HorizontalScrollbarSize = 10
-        Me.MetroTabPage8.Location = New System.Drawing.Point(4, 38)
-        Me.MetroTabPage8.Name = "MetroTabPage8"
-        Me.MetroTabPage8.Size = New System.Drawing.Size(399, 324)
-        Me.MetroTabPage8.TabIndex = 8
-        Me.MetroTabPage8.VerticalScrollbarBarColor = True
-        Me.MetroTabPage8.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage8.VerticalScrollbarSize = 10
-        '
-        'MetroLabel9
-        '
-        Me.MetroLabel9.AutoSize = True
-        Me.MetroLabel9.FontSize = MetroFramework.MetroLabelSize.Tall
-        Me.MetroLabel9.FontWeight = MetroFramework.MetroLabelWeight.Regular
-        Me.MetroLabel9.Location = New System.Drawing.Point(17, 6)
-        Me.MetroLabel9.Name = "MetroLabel9"
-        Me.MetroLabel9.Size = New System.Drawing.Size(93, 25)
-        Me.MetroLabel9.TabIndex = 34
-        Me.MetroLabel9.Text = "Codes Cat"
-        '
-        'MetroTabPage9
-        '
-        Me.MetroTabPage9.Controls.Add(Me.MetroLabel10)
-        Me.MetroTabPage9.HorizontalScrollbarBarColor = True
-        Me.MetroTabPage9.HorizontalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage9.HorizontalScrollbarSize = 10
-        Me.MetroTabPage9.Location = New System.Drawing.Point(4, 38)
-        Me.MetroTabPage9.Name = "MetroTabPage9"
-        Me.MetroTabPage9.Size = New System.Drawing.Size(399, 324)
-        Me.MetroTabPage9.TabIndex = 9
-        Me.MetroTabPage9.VerticalScrollbarBarColor = True
-        Me.MetroTabPage9.VerticalScrollbarHighlightOnWheel = False
-        Me.MetroTabPage9.VerticalScrollbarSize = 10
-        '
-        'MetroLabel10
-        '
-        Me.MetroLabel10.AutoSize = True
-        Me.MetroLabel10.FontSize = MetroFramework.MetroLabelSize.Tall
-        Me.MetroLabel10.FontWeight = MetroFramework.MetroLabelWeight.Regular
-        Me.MetroLabel10.Location = New System.Drawing.Point(17, 6)
-        Me.MetroLabel10.Name = "MetroLabel10"
-        Me.MetroLabel10.Size = New System.Drawing.Size(129, 25)
-        Me.MetroLabel10.TabIndex = 35
-        Me.MetroLabel10.Text = "Codes Cat Sub"
+        Me.MetroLabel8.Text = "Cod Cat Sub"
         '
         'MetroButton1
         '
@@ -615,14 +565,14 @@ Partial Class LogsSincronizacion
         Me.Text = "Procesos de sincronización"
         Me.mpMenu.ResumeLayout(False)
         Me.mtbdProcesosSinc.ResumeLayout(False)
-        Me.mtbConfiguracion.ResumeLayout(False)
-        Me.mtbConfiguracion.PerformLayout()
         Me.MetroTabPage10.ResumeLayout(False)
         Me.MetroTabPage10.PerformLayout()
         Me.MetroTabPage1.ResumeLayout(False)
         Me.MetroTabPage1.PerformLayout()
         Me.MetroTabPage2.ResumeLayout(False)
         Me.MetroTabPage2.PerformLayout()
+        Me.mtbConfiguracion.ResumeLayout(False)
+        Me.mtbConfiguracion.PerformLayout()
         Me.MetroTabPage3.ResumeLayout(False)
         Me.MetroTabPage3.PerformLayout()
         Me.MetroTabPage4.ResumeLayout(False)
@@ -633,10 +583,6 @@ Partial Class LogsSincronizacion
         Me.MetroTabPage6.PerformLayout()
         Me.MetroTabPage7.ResumeLayout(False)
         Me.MetroTabPage7.PerformLayout()
-        Me.MetroTabPage8.ResumeLayout(False)
-        Me.MetroTabPage8.PerformLayout()
-        Me.MetroTabPage9.ResumeLayout(False)
-        Me.MetroTabPage9.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -651,7 +597,6 @@ Partial Class LogsSincronizacion
     Friend WithEvents mlnkCustormersPrsn As MetroFramework.Controls.MetroLink
     Friend WithEvents mlnkCustormersBillPrcol As MetroFramework.Controls.MetroLink
     Friend WithEvents mlnkCodesCat As MetroFramework.Controls.MetroLink
-    Friend WithEvents mlnkCodesCatSub As MetroFramework.Controls.MetroLink
     Friend WithEvents mtbdProcesosSinc As MetroFramework.Controls.MetroTabControl
     Friend WithEvents MetroTabPage1 As MetroFramework.Controls.MetroTabPage
     Friend WithEvents MetroLabel3 As MetroFramework.Controls.MetroLabel
@@ -669,10 +614,6 @@ Partial Class LogsSincronizacion
     Friend WithEvents MetroLabel4 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroLabel6 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroLabel8 As MetroFramework.Controls.MetroLabel
-    Friend WithEvents MetroTabPage8 As MetroFramework.Controls.MetroTabPage
-    Friend WithEvents MetroLabel9 As MetroFramework.Controls.MetroLabel
-    Friend WithEvents MetroTabPage9 As MetroFramework.Controls.MetroTabPage
-    Friend WithEvents MetroLabel10 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroTabPage10 As MetroFramework.Controls.MetroTabPage
     Friend WithEvents MetroLabel11 As MetroFramework.Controls.MetroLabel
     Friend WithEvents MetroButton1 As MetroFramework.Controls.MetroButton
@@ -683,4 +624,6 @@ Partial Class LogsSincronizacion
     Friend WithEvents lvOrdersDetail As ListView
     Friend WithEvents lvCustomersBill As ListView
     Friend WithEvents lvCustomersBillPrsn As ListView
+    Friend WithEvents lvCustomersBillProCol As ListView
+    Friend WithEvents lvCodCatSub As ListView
 End Class
